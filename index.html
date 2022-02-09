@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Vs Player</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container mt-3">
+
+        <h1>Player Vs Player</h1>
+
+        <p>
+            winning score: <span class="winScore"></span>
+        </p>
+        <p class="p">
+            player-1: <span class="p1Score"></span> <br>
+            player-2: <span class="p2Score"></span>
+        </p>
+
+
+        <form action="" class="text-center">
+            <input type="number" id="input" />
+            <button  class="btn btn-secondary">Submit</button>
+        </form>
+
+
+        <div class="d-grid gap-2 mt-3 ">
+            
+            <button  class="btn btn-secondary p1Btn btn">player1</button>
+            <button  class="btn btn-secondary p2Btn btn">player2</button>
+            <button  class="btn btn-secondary reset btn">reset</button>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- main script -->
+    <script src="main.js"></script>
+</body>
+</html>
